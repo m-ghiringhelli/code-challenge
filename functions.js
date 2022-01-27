@@ -45,19 +45,6 @@ export function divideThenMultiply(firstNumber, secondNumber, thirdNumber) {
     return (firstNumber / secondNumber) * thirdNumber;
 }
 
-
-// This function should take in three numbers and return those numbers in an array
-
-/* 
-Input:
-
-8, 4, 5
-
-Output: 
-
-[8, 4, 5]
-*/
-
 export function returnAsAnArray(firstNumber, secondNumber, thirdNumber) {
     const array = [];
     array.push(firstNumber);
@@ -66,20 +53,12 @@ export function returnAsAnArray(firstNumber, secondNumber, thirdNumber) {
     return array;
 }
 
-// This function should take in three numbers and return those numbers mushed together as a string
-
-/* 
-Input:
-
-8, 4, 5
-
-Output: 
-
-'845'
-*/
-
 export function returnAsAString(firstNumber, secondNumber, thirdNumber) {
-    return true;
+    let string = '';
+    string += firstNumber;
+    string += secondNumber;
+    string += thirdNumber;
+    return string;
 }
 
 // This function should take in two numbers and return a greeting announcing that the sum of those numbers is today's lucky number
