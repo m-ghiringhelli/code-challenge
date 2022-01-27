@@ -24,19 +24,6 @@ export function multiplyBySeven(num) {
     return num * 7;
 }
 
-// This function should take in a number and multiply it by twelve then cut the result in half
-
-/* 
-Input:
-
-4
-
-Output: 
-
-24
-
-*/
-
 export function multiplyBy12ThenHalve(num) {
     return (num * 12) / 2;
 }
@@ -55,7 +42,7 @@ Output:
 */
 
 export function divideThenMultiply(firstNumber, secondNumber, thirdNumber) {
-    return true;
+    return (firstNumber / secondNumber) * thirdNumber;
 }
 
 
