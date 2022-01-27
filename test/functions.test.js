@@ -9,6 +9,7 @@ import {
     returnAsAString,
     makeLuckyGreeting,
     getSecondItem,
+    getLastItem,
 
 } from '../functions.js';
 
@@ -105,9 +106,17 @@ test('This function should take in 8 and 4 and return Hello! Your lucky number f
     expect.equal(actual, expected);
 });
 
+//TEST 8
 test(' This function should take an array and return the second item in the array', (expect) => {
     const expected = 'apple';
     const actual = getSecondItem(['kiwi', 'apple', 'orange', 'plum']);
+    expect.equal(actual, expected);
+});
+
+//TEST 9
+test('this function should return the last item from the array', (expect) => {
+    const expected = 'plum';
+    const actual = getLastItem(['kiwi', 'apple', 'orange', 'plum']);
     expect.equal(actual, expected);
 });
 

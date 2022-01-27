@@ -97,7 +97,7 @@ Output:
 */
 
 export function getLastItem(array) {
-    return true;
+    return array[array.length - 1];
 }
 
 // Bonus question:
