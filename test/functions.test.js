@@ -8,6 +8,7 @@ import {
     returnAsAnArray,
     returnAsAString,
     makeLuckyGreeting,
+    getSecondItem,
 
 } from '../functions.js';
 
@@ -104,6 +105,11 @@ test('This function should take in 8 and 4 and return Hello! Your lucky number f
     expect.equal(actual, expected);
 });
 
+test(' This function should take an array and return the second item in the array', (expect) => {
+    const expected = 'apple';
+    const actual = getSecondItem(['kiwi', 'apple', 'orange', 'plum']);
+    expect.equal(actual, expected);
+});
 
 
 // test('this test should pass', (expect) => {
