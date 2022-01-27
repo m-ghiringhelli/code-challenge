@@ -7,6 +7,7 @@ import {
     divideThenMultiply,
     returnAsAnArray,
     returnAsAString,
+    makeLuckyGreeting,
 
 } from '../functions.js';
 
@@ -95,6 +96,16 @@ test('This function should take in 8,4,5 and return those numbers mushed togethe
     const actual = returnAsAString(8, 4, 5);
     expect.equal(actual, expected);
 });
+
+//TEST 7
+test('This function should take in 8 and 4 and return Hello! Your lucky number for the day is 12', (expect) => {
+    const expected = 'Hello! Your lucky number for the day is 12';
+    const actual = makeLuckyGreeting(8, 4);
+    expect.equal(actual, expected);
+});
+
+
+
 // test('this test should pass', (expect) => {
 //     const expected = true;
 
