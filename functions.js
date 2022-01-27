@@ -59,7 +59,11 @@ Output:
 */
 
 export function returnAsAnArray(firstNumber, secondNumber, thirdNumber) {
-    return true;
+    const array = [];
+    array.push(firstNumber);
+    array.push(secondNumber);
+    array.push(thirdNumber);
+    return array;
 }
 
 // This function should take in three numbers and return those numbers mushed together as a string
