@@ -10,6 +10,8 @@ Output:
 
 'bunny rabbit!!!'
 
+});
+
 */
 
 export function addExclamationPoints() {
